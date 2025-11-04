@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     box-sizing: border-box;
 }
@@ -77,3 +78,84 @@ border-radius: 20px;
     padding-right: 10px;
     
 }
+=======
+*{
+    box-sizing: border-box;
+}
+.imag{
+    background-color: black;
+
+}
+#dashboard{
+    height: 100;
+    width: 500;
+    display: flex;
+    padding: 20px;
+}
+#vagasEmDestaque{
+    display: flex;
+    justify-content: center;
+}
+#grelhaVagas{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+.vagasFirstLine{
+
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    gap: 15 px;
+
+}
+.vagasSecondLine{
+
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    gap: 15 px;
+
+}
+
+
+#buttonMarketing{
+border-radius: 20px;
+    padding: 2% 2%;
+    color:orange;
+    background-color: bisque;
+    border: transparent;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#buttonDesign{
+border-radius: 20px;
+    padding: 2% 2%;
+    color: green;
+    background-color: darkseagreen;
+    border: transparent;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#buttonTechnology{
+    border-radius: 20px;
+    padding: 2% 2%;
+    color:red;
+    background-color:cornsilk;
+    border:transparent;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+#buttonBusiness{
+    border-radius: 20px;
+    padding: 2% 2%;
+    color: blueviolet;
+    background-color: lavender;
+    border: transparent;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+>>>>>>> b168fefcf7046031c4e37411bed7de7428f79f23
