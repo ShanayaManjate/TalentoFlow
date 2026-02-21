@@ -569,3 +569,91 @@ border-radius: 20px;
 .full { background: #4CAF50; }
 .marketing { background: #2196F3; }
 .design { background: #FF5722; }
+
+
+
+
+
+/*Footer*/
+
+
+.footer{
+    background-color: rgb(31, 26, 26);
+    color: white;
+    padding: 40px 80px;
+}
+
+/* Container principal */
+.containerFooter{
+    display: flex;
+    justify-content: space-between;   /* DISTRIBUI IGUAL À IMAGEM */
+    align-items: flex-start;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+/* Empresa */
+.empresa{
+    max-width: 280px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Colunas About e Resources */
+.coluna{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.coluna h4{
+    margin-bottom: 10px;
+}
+
+/* Newsletter */
+.newsletter{
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form{
+    display: flex;
+    gap: 10px;
+}
+
+.form input{
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    flex: 1;
+}
+
+.form button{
+    padding: 10px 15px;
+    background-color: #4f46e5;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Linha */
+hr{
+    margin: 30px 0;
+    border: 1px solid #555;
+}
+
+/* Parte final */
+.final{
+    display: flex;
+    justify-content: space-between;  /* AQUI estava o teu erro */
+    align-items: center;
+}
+
+.redes{
+    display: flex;
+    gap: 15px;
+}
