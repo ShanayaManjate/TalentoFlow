@@ -1,16 +1,13 @@
 
 *{   
-    margin: 0px;
-    height: 0px;
+    margin: 0;
+    
     box-sizing: border-box;
 }
 
 
 
-*{
-    box-sizing: border-box;
 
-}
 .imag{
     background-color: black;
    
@@ -169,3 +166,87 @@ border-radius: 20px;
     
 }
 
+
+
+
+/*ESTILIZANDO SECTION DE ULTIMAS VAGAS Agora*/
+
+
+
+/* SECTION */
+.vagasAbertas {
+    padding: 60px 100px;
+    background-color: rgb(245, 241, 241)}
+
+.vagas-topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.designTitle {
+    color: #227aff;
+}
+
+.ver-todas {
+    color: #0c185c;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* cada linha */
+.linha-vagas {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+/* cada vaga */
+.vaga {
+    flex: 1; /* ocupa metade da linha */
+    display: flex;
+    gap: 15px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    background-color: #fff;
+}
+
+/* imagem */
+.vaga-img img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+/* info */
+.vaga-info h3 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.vaga-info p {
+    margin: 5px 0 10px;
+    font-size: 13px;
+    color: gray;
+}
+
+/* tags */
+.vaga-tags {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+}
+
+.vaga-tags span {
+    padding: 4px 8px;
+    font-size: 11px;
+    border-radius: 6px;
+    color: white;
+}
+
+.full { background: #4CAF50; }
+.marketing { background: #2196F3; }
+.design { background: #FF5722; }
