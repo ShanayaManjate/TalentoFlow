@@ -13,188 +13,229 @@
 <body>
 
 
+<header class="cabeca"> <!-- Lado esquerdo: logo + nome --> 
+    <div class="divhead1"> 
+        <div class="logo-area"> 
+            <img class="imag" src="AssetsTalentoFlow/Logo.png" alt="Logo TalentoFlow"> 
+        </div> 
+        
+        <!-- Centro: links de navegação --> 
+        <div class="headElements"> 
+            <div><a href="#">Find Jobs</a></div> 
+            <div><a href="#">Browse Companies</a></div> 
+        </div> 
+    </div> 
+    
+    <!-- Lado direito: botões --> 
+     <div class="auth-buttons"> 
+        <nav>
+            <button>Entrar</button>
+            <button>Criar Conta</button>
+        </nav>
+    </div> 
+</header>
+
+
 
 <main>
 
     <!--Dont worry, depois removeremos os comentarios desnecessarios-->
 
     <!--O Bill fara parte inicial ate a seccao de categorias-->
-    <section>
+   <section class="hero">
 
-        <div>Descubra</div>
-        <div>mais de</div>
+    <div class="hero-content">
+        <div class="hero-title">Descubra</div>
+        <div class="hero-subtitle">mais de</div>
+        <div class="hero-number">5000+ Vagas</div>
 
-        <div>5000+ Vagas</div>
-
-        <div>
+        <div class="hero-image">
             <img src="AssetsTalentoFlow/Group.svg" alt="">
         </div>
 
-        <div>
+        <div class="text1">
             <p>
-                A talentoFlow e a ponte entre o seu talento e o mercado de trabalho mocambicano.
+                A talentoFlow é a ponte entre o seu talento e o mercado de trabalho moçambicano.
                 Encontre oportunidades que impulsionam a sua carreira.
             </p>
         </div>
+    </div>
 
-        <div>
-            <div>
+    <!-- Barra de Pesquisa -->
+    <div class="search-container">
+
+        <div class="search-input-group">
+            <span><i class="fa fa-search"></i></span>
+            <input type="text" placeholder="Cargo ou palavra-chave">
+        </div>
+
+        <div class="search-input-group">
+            <span><i class="fa fa-map-marker"></i></span>
+            <input type="text" placeholder="Selecionar Provincia (Maputo)">
+        </div>
+
+        <button class="search-btn">Pesquisar Vagas</button>
+
+    </div>
+
+    <div class="popular">
+        Popular: UI Design, UX Research, Android, Admin
+    </div>
+
+  </section>
+
+
+
+    <!-- Secção de Empresas -->
+    <section class="secao-empresas">
+        <div class="titulo-empresas">
+            Empresas que ajudamos a crescer
+        </div>
+
+        <div class="logos-empresas">
+            <img src="AssetsTalentoFlow/Featured Company.png" 
+                alt="Empresas ajudadas no crescimento">
+        </div>
+    </section>
+
+
+<!-- Secção de Categorias -->
+<section class="explore">
+
+    <div class="container">
+        <div class="cabecalho-explore">
+            <h2>Explore por <span>Categorias</span></h2>
+            <div class="ver-todas">
+                Show all jobs
                 <span>
-                    <i class="fa fa-search" aria-hidden="true"></i>
+                    <i class="fa fa-arrow-right"></i>
                 </span>
-                <input type="text" placeholder="Cargo ou palavra-chave">
             </div>
+        </div>
+    </div> 
 
-            <div>
-                <span>
-                    <i class="fa fa-map-marker" aria-hidden="true"></i>
-                </span>
-                <input type="text" placeholder="Selecionar Provincia (Maputo)">
-                <button>Pesquisar Vagas</button>
+</section>
+
+
+
+    <!-- Section das categorias -->
+<section class="categorias">
+
+    <!-- Primeira linha -->
+    <div class="linha-categorias">
+
+        <div class="card-categoria">
+            <div class="card-icon">
+                <img src="categorias/Screenshot 2026-02-19 233126.png" alt="">
             </div>
-
-            <div>Popular: UI Design, UX Research, Android, Admin</div>
+            <div class="card-info">
+                <h3 class="card-titulo">Design</h3>
+                <div class="card-vagas">
+                    235 jobs available
+                    <span><i class="fa fa-arrow-right"></i></span>
+                </div>
+            </div>
         </div>
 
-    </section>
-
-    <!--Section de empresas-->
-    <section>
-        <div>Empresas que ajudamos a crescer</div>
-        <img src="AssetsTalentoFlow/Featured Company.png" alt="empresas ajudadas no crescimento">
-    </section>
-
-    <section>
-        <div>
-            <h1>Explore por <span>Categorias</span></h1>
+        <div class="card-categoria">
+            <div class="card-icon">
+                <img src="categorias/sales.png" alt="">
+            </div>
+            <div class="card-info">
+                <h3 class="card-titulo">Sales</h3>
+                <div class="card-vagas">
+                    756 jobs available
+                    <span><i class="fa fa-arrow-right"></i></span>
+                </div>
+            </div>
         </div>
 
-        <div>
-            Show all jobs
-            <span>
-                <i class="fa fa-arrow-right" aria-hidden="true"></i>
-            </span>
-        </div>
-    </section>
-
-    <!--Section das categorias-->
-    <section>
-         <!--Primeira linha-->
-        <div>
-
-            <div>
-                <div><span><img src="categorias/Screenshot 2026-02-19 233126.png" alt=""></span></div>
-                <div>
-                    <div>Design</div>
-                    <div>
-                        235 jobs available
-                        <span><i class="fa fa-arrow-right" aria-hidden="true"></i></span>
-                    </div>
+        <div class="card-categoria">
+            <div class="card-icon">
+                <img src="categorias/phones.png" alt="">
+            </div>
+            <div class="card-info">
+                <h3 class="card-titulo">Marketing</h3>
+                <div class="card-vagas">
+                    140 jobs available
+                    <span><i class="fa fa-arrow-right"></i></span>
                 </div>
             </div>
-
-
-            <div>
-                <div><span><img src="categorias/sales.png" alt=""></span></div>
-                <div>
-                    <div>Sales</div>
-                    <div>
-                        756 jobs available
-                        <span><i class="fa fa-arrow-right" aria-hidden="true"></i></span>
-                    </div>
-                </div>
-            </div>
-
-
-
-            <div>
-                <div><span><img src="categorias/phones.png" alt=""></span></div>
-                <div>
-                    <div>Marketing</div>
-                    <div>
-                        140 jobs available
-                        <span><i class="fa fa-arrow-right" aria-hidden="true"></i></span>
-                    </div>
-                </div>
-            </div>
-
-
-            <div>
-                <div><span><img src="categorias/caixinhas.png" alt=""></span></div>
-                <div>
-                    <div>Vendas e Comercial</div>
-                    <div>
-                        436 jobs available
-                        <span><i class="fa fa-arrow-right" aria-hidden="true"></i></span>
-                    </div>
-                </div>
-            </div>
-
-            
         </div>
 
-
-
-        <!--Segunda linha-->
-
-        <div>
-    
-            <div>
-                <div><span><img src="categorias/tecnologia.png" alt=""></span></div>
-    
-                <div>
-                    <div>Tecnologia e Informacao</div>
-                    <div>
-                        542 jobs available
-                        <span><i class="fa fa-arrow-right" aria-hidden="true"></i></span>
-                    </div>
+        <div class="card-categoria">
+            <div class="card-icon">
+                <img src="categorias/caixinhas.png" alt="">
+            </div>
+            <div class="card-info">
+                <h3 class="card-titulo">Vendas e Comercial</h3>
+                <div class="card-vagas">
+                    436 jobs available
+                    <span><i class="fa fa-arrow-right"></i></span>
                 </div>
             </div>
-    
-    
-            <div>
-                <div><span><img src="categorias/engenharia.png" alt=""></span></div>
-    
-                <div>
-                    <div>Engenharia</div>
-                    <div>
-                        542 jobs available
-                        <span><i class="fa fa-arrow-right" aria-hidden="true"></i></span>
-                    </div>
-                </div>
-            </div>
-    
-    
-    
-            <div>
-                <div><span><img src="categorias/gestao.png" alt=""></span></div>
-    
-                <div>
-                    <div>Gestao de Negocios</div>
-                    <div>
-                        211 jobs available
-                        <span><i class="fa fa-arrow-right" aria-hidden="true"></i></span>
-                    </div>
-                </div>
-            </div>
-    
-    <!--Section de Recursos Humanos-->
-    
-             <div>
-                <div><span><i class="fa fa-users" aria-hidden="true"></i></div>
-    
-                <div>
-                    <div>Recursos Humanos</div>
-                    <div>
-                        346 jobs available
-                        <span><i class="fa fa-arrow-right" aria-hidden="true"></i></span>
-                    </div>
-                </div>
-            </div>
-     </div>
+        </div>
 
-    </section>
+    </div>
 
+    <!-- Segunda linha -->
+    <div class="linha-categorias">
+
+        <div class="card-categoria">
+            <div class="card-icon">
+                <img src="categorias/tecnologia.png" alt="">
+            </div>
+            <div class="card-info">
+                <h3 class="card-titulo">Tecnologia e Informação</h3>
+                <div class="card-vagas">
+                    542 jobs available
+                    <span><i class="fa fa-arrow-right"></i></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-categoria">
+            <div class="card-icon">
+                <img src="categorias/engenharia.png" alt="">
+            </div>
+            <div class="card-info">
+                <h3 class="card-titulo">Engenharia</h3>
+                <div class="card-vagas">
+                    542 jobs available
+                    <span><i class="fa fa-arrow-right"></i></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-categoria">
+            <div class="card-icon">
+                <img src="categorias/gestao.png" alt="">
+            </div>
+            <div class="card-info">
+                <h3 class="card-titulo">Gestão de Negócios</h3>
+                <div class="card-vagas">
+                    211 jobs available
+                    <span><i class="fa fa-arrow-right"></i></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-categoria">
+            <div class="card-icon">
+                <i class="fa fa-users"></i>
+            </div>
+            <div class="card-info">
+                <h3 class="card-titulo">Recursos Humanos</h3>
+                <div class="card-vagas">
+                    346 jobs available
+                    <span><i class="fa fa-arrow-right"></i></span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
    
     <!--Shanaya - desde a seccao de dashboard ate a seccao das vagas em destaque-->
     <section></section>

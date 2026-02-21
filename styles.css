@@ -1,21 +1,345 @@
 
-*{   
-    margin: 0px;
-    height: 0px;
+* {   
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 
 
-*{
-    box-sizing: border-box;
+/* HEADER GERAL */
+.cabeca {
+    display: flex;
+    justify-content: space-between; /* esquerda | direita */
+    align-items: center;
+    padding: 12px 40px;
+    background-color: #ffffff;
+    border-bottom: 0px solid #e5e5e5;
+}
+
+/* BLOCO ESQUERDO (logo + menu) */
+.divhead1 {
+    display: flex;
+    align-items: center;
+    gap: 40px; /* espaço entre logo e links */
+}
+
+/* Logo */
+.logo-area 
+
+ img {
+    height: 32px;
+    width: auto;
+    background-color: transparent; /* garante que não há fundo preto */
+}
+
+
+.imag {
+    height: 32px;
+    width: auto;
+}
+
+/* LINKS DE NAVEGAÇÃO */
+.headElements {
+    display: flex;
+    gap: 20px;
+}
+
+.headElements a {
+    text-decoration: none;
+    color: #333;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.headElements a:hover {
+    color: #2563eb; /* azul */
+}
+
+/* BLOCO DIREITO (botões) */
+.auth-buttons {
+    display: flex;
+    gap: 12px;
+}
+
+/* BOTÕES */
+.auth-buttons button {
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+}
+
+/* Botão Entrar */
+.auth-buttons button:first-child {
+    background-color: transparent;
+    color: #2563eb;
+    border: 1px solid #2563eb;
+}
+
+/* Botão Criar Conta */
+.auth-buttons button:last-child {
+    background-color: #2563eb;
+    color: #fff;
+}
+
+
+
+
+/*MAIN GERAL*/
+
+
+
+/*section first, de introducao*/
+
+
+/* HERO SECTION */
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 80px 100px;
+    gap: 25px;
+    background: linear-gradient(135deg, #f4f7fc, #e9eef7);
+    min-height: 100vh;
+}
+
+/* Conteúdo principal */
+
+.hero-content {
+    max-width: 700px;
+}
+
+.hero-title {
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.hero-subtitle {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.hero-number {
+    font-size: 48px;
+    font-weight: 800;
+    color: #1e90ff;
+}
+
+.hero-image img {
+    width: 250px;
+    margin-top: 15px;
+}
+
+.text1 {
+    margin-top: 20px;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* SEARCH BAR */
+
+.search-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+    background: white;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    max-width: 800px;
+}
+
+.search-input-group {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex: 1;
+    border: 1px solid #ddd;
+    padding: 10px 12px;
+    border-radius: 8px;
+}
+
+.search-input-group i {
+    color: #888;
+}
+
+.search-input-group input {
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+.search-btn {
+    padding: 12px 20px;
+    background: #1e90ff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.search-btn:hover {
+    background: #0d6efd;
+}
+
+/* Popular tags */
+
+.popular {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666;
+
 
 }
-.imag{
-    background-color: black;
-   
+
+
+/*Section de empresas*/
+
+.secao-empresas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 100px;
+    background-color: #f8f9fb;
+    gap: 30px;
 }
 
+.secao-empresas {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* começa no início */
+    padding: 60px 100px;
+    background-color: #f8f9fb;
+    gap: 30px;
+}
+
+
+/*A principio, essa imagem quero que se adapte de forma automatica*/
+.logos-empresas img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+
+<!--Section de explorar as vagas-->
+
+
+.container {
+    max-width: 800px;   /* largura máxima */
+    margin: 0 auto;      /* centraliza horizontalmente */
+    padding: 0 20px;     /* pequena margem lateral em telas pequenas */
+}
+
+.explore {
+    padding: 60px 0;     /* só vertical */
+}
+
+
+.cabecalho-explore {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho-explore h2 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.cabecalho-explore span {
+   color: #1e90ff;
+}
+
+.ver-todas {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #1e22ff;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.ver-todas i {
+    font-size: 14px;
+    color: #1e22ff;
+}
+
+
+
+
+/* SECTION DE CATEGORIAS */
+.categorias {
+    padding: 60px 80px;
+}
+
+/* Cada linha */
+.linha-categorias {
+    display: flex;          /* Ativa flex */
+    gap: 20px;              /* Espaço entre cards */
+    margin-bottom: 20px;    /* Espaço entre linhas */
+}
+
+/* Cada card */
+.card-categoria {
+    flex: 1;                /* Todos com mesmo tamanho */
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid #eee;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+/* Hover */
+.card-categoria:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+}
+
+/* Ícone */
+.card-icon img {
+    width: 40px;
+}
+
+.card-icon i {
+    font-size: 40px;
+}
+
+/* Texto */
+.card-titulo {
+    font-size: 18px;
+    margin-bottom: 6px;
+}
+
+.card-vagas {
+    font-size: 14px;
+    color: gray;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+
+
+
+
+
+
+
+/*SEGUNDA PARTE - SHANNAYA*/
 #dashboard{
     height: 100vh;
     width: 500;
