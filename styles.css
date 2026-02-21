@@ -234,8 +234,7 @@
 
 /* styles.css */
 
-/* Container padrão com espaçamento lateral */
-/* Container centralizado padrão (igual seção vagas) */
+
 .explore {
     max-width: 1200px;   /* mesma largura das vagas */
     margin: 0 auto;       /* centraliza horizontalmente */
@@ -566,11 +565,41 @@ border-radius: 20px;
     color: white;
 }
 
-.full { background: #4CAF50; }
-.marketing { background: #2196F3; }
-.design { background: #FF5722; }
 
 
+
+
+
+/* FULL-TIME */
+/* Tags */
+.vaga-tags{
+    display: flex;
+    gap: 10px;
+}
+
+.vaga-tags span{
+    padding: 5px 12px;
+    font-size: 12px;
+    border-radius: 20px;
+    font-weight: 500;
+}
+
+/* Cores específicas */
+/* Tags específicas */
+.full1 {
+    background-color: #569c79;
+    color: #08382b;
+}
+
+.marketing {
+    background-color: #ffe0b2;
+    color: #ff6f00;
+}
+
+.design {
+    background-color: #e3f2fd;
+    color: #1976d2;
+}
 
 
 
