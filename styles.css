@@ -232,47 +232,35 @@
 
 <!--Section de explorar as vagas-->
 
+/* styles.css */
 
-.container {
-    max-width: 800px;   /* largura máxima */
-    margin: 0 auto;      /* centraliza horizontalmente */
-    padding: 0 20px;     /* pequena margem lateral em telas pequenas */
-}
-
+/* Container padrão com espaçamento lateral */
+/* Container centralizado padrão (igual seção vagas) */
 .explore {
-    padding: 60px 0;     /* só vertical */
+    max-width: 1200px;   /* mesma largura das vagas */
+    margin: 0 auto;       /* centraliza horizontalmente */
+    padding: 0 20px;      /* espaço lateral */
+    margin-bottom: 40px;  /* espaçamento inferior da seção */
 }
 
-
+/* Cabeçalho da seção */
 .cabecalho-explore {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 20px;
 }
 
-.cabecalho-explore h2 {
-    font-size: 32px;
-    font-weight: 700;
+.designExp{
+    color:#2196F3;
 }
 
-.cabecalho-explore span {
-   color: #1e90ff;
+.show1{
+    color: #0e3e86;
 }
-
-.ver-todas {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    color: #1e22ff;
-    cursor: pointer;
-    font-weight: 500;
-}
-
-.ver-todas i {
-    font-size: 14px;
-    color: #1e22ff;
-}
-
 
 
 
@@ -497,6 +485,10 @@ border-radius: 20px;
 
 
 /*ESTILIZANDO SECTION DE ULTIMAS VAGAS Agora*/
+
+.cabecalho-explore{
+    
+}
 
 
 
