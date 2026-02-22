@@ -512,8 +512,8 @@ vagasBBB img{
    
 }
 .VagaD{
-    
-    gap: 15px;
+    flex-direction: row;
+    gap: 25px;
     padding: 20px;
     border: 1px solid #ddd;
 
