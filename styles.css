@@ -12,9 +12,11 @@
     display: flex;
     justify-content: space-between; /* esquerda | direita */
     align-items: center;
-    padding: 12px 40px;
+   
     background-color: #ffffff;
     border-bottom: 0px solid #e5e5e5;
+    padding-left: 85px;
+    padding: 85px;
 }
 
 /* BLOCO ESQUERDO (logo + menu) */
@@ -129,6 +131,7 @@
 }
 
 .hero-image img {
+   
     width: 250px;
     margin-top: 15px;
 }
@@ -202,33 +205,28 @@
 /*Section de empresas*/
 
 .secao-empresas {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 60px 100px;
+    width: 100%;
     background-color: #f8f9fb;
-    gap: 30px;
+    display: flex;
+    justify-content:flex-start; /* centraliza o conteúdo */
+    padding: 30px 0;
+    padding: 85px;
 }
 
-.secao-empresas {
+.secao-empresas .container-empresas {
+    width: 100%;
+    max-width: 1200px; /* mesma largura das outras secções */
+   
     display: flex;
     flex-direction: column;
-    align-items: flex-start; /* começa no início */
-    padding: 60px 100px;
-    background-color: #f8f9fb;
-    gap: 30px;
+    align-items:first baseline;
+    gap: 20px;
 }
 
-
-/*A principio, essa imagem quero que se adapte de forma automatica*/
 .logos-empresas img {
     width: 100%;
     height: auto;
-    display: block;
 }
-
-
 
 <!--Section de explorar as vagas-->
 
@@ -295,14 +293,25 @@
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(0,0,0,0.08);
 }
+.card-categoria, :first, i
+{ color: #2196F3;}
+
+
 
 /* Ícone */
 .card-icon img {
-    width: 40px;
+    width: 70px;
 }
 
+
 .card-icon i {
-    font-size: 40px;
+     color: #476dbe; /* azul */
+    font-size: 50px;
+}
+
+
+.engenharia i {
+    color: #5271b3;
 }
 
 /* Texto */
@@ -318,6 +327,7 @@
     align-items: center;
     gap: 8px;
 }
+
 
 
 
@@ -509,7 +519,7 @@ border-radius: 20px;
 
 .ver-todas {
     color: #0c185c;
-    font-size: 14px;
+    font-size: 20px;
     cursor: pointer;
 }
 
