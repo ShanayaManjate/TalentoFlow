@@ -584,23 +584,32 @@ border-radius: 20px;
     font-weight: 500;
 }
 
-/* Cores específicas */
-/* Tags específicas */
-.full1 {
-    background-color: #569c79;
-    color: #08382b;
+
+.full{
+    background-color: rgb(173, 245, 173);
+    color: rgb(23, 129, 23);
+    border-radius: 20px;
+    padding: 4px;
 }
 
-.marketing {
-    background-color: #ffe0b2;
-    color: #ff6f00;
+.marketing{
+    background-color: transparent;
+    color: yellow;
+    border-radius: 20px;
+    padding: 4px;
+    border: 2px solid yellow;
+    font-weight: bold;
+
 }
 
-.design {
-    background-color: #e3f2fd;
-    color: #1976d2;
+.design{
+     background-color: transparent;
+    color: rgb(139, 25, 95);
+    border-radius: 20px;
+    padding: 4px;
+    border: 2px solid rgb(139, 25, 95);
+    font-weight: bold;
 }
-
 
 
 /*Footer*/
