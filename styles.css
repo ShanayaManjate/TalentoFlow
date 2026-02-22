@@ -365,7 +365,6 @@
 
 
 
-
 /*SEGUNDA PARTE - SHANAYA*/
 
 /*Area de Dashboard*/
@@ -614,99 +613,96 @@
 }
 
 
-/* SECTION */
-.vagasAbertas {
-    padding: 60px 100px;
-    background-color: rgb(245, 241, 241)}
 
-.vagas-topo {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 40px;
+
+
+
+
+/*ESTILIZANDO SECTION DE ULTIMAS VAGAS Agora*/
+
+
+.vagasAbertas {
+  padding: 60px 100px;
+  background-color: #f5f1f1;
+  font-family: Arial, sans-serif;
 }
 
-.designTitle {
-    color: #227aff;
+.vagas-topo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.vagas-topo h1 {
+  font-size: 28px;
+  color: #0d0d0e;
 }
 
 .ver-todas {
-    color: #0c185c;
-    font-size: 20px;
-    cursor: pointer;
+  color: #0c185c;
+  font-size: 14px;
+  cursor: pointer;
 }
 
-/* cada linha */
 .linha-vagas {
-    display: flex;
-    justify-content: space-between;
-    gap: 30px;
-    margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+  align-items: stretch; /* garante que todas as vagas tenham a mesma altura */
 }
 
-/* cada vaga */
 .vaga {
-    flex: 1; /* ocupa metade da linha */
-    display: flex;
-    gap: 15px;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 12px;
-    background-color: #fff;
+  flex: 1 1 calc(50% - 15px);
+  display: flex;
+  gap: 15px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background-color: #fff;
+  align-items: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  transition: transform 0.2s, box-shadow 0.2s;
 }
 
-/* imagem */
+.vaga:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
 .vaga-img img {
-    width: 50px;
-    height: 50px;
-    object-fit: contain;
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  border-radius: 8px;
 }
 
-/* info */
 .vaga-info h3 {
-    margin: 0;
-    font-size: 16px;
+  margin: 0;
+  font-size: 18px;
+  color: #101114;
 }
 
 .vaga-info p {
-    margin: 5px 0 10px;
-    font-size: 13px;
-    color: gray;
+  margin: 5px 0 10px;
+  font-size: 14px;
+  color: gray;
 }
 
-/* tags */
 .vaga-tags {
-    display: flex;
-    gap: 6px;
-    flex-wrap: wrap;
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
 }
 
 .vaga-tags span {
-    padding: 4px 8px;
-    font-size: 11px;
-    border-radius: 6px;
-    color: white;
+  padding: 4px 8px;
+  font-size: 11px;
+  border-radius: 6px;
+  color: white;
 }
-
-
-
-
-
-
-/* FULL-TIME */
-/* Tags */
-.vaga-tags{
-    display: flex;
-    gap: 10px;
-}
-
-.vaga-tags span{
-    padding: 5px 12px;
-    font-size: 12px;
-    border-radius: 20px;
-    font-weight: 500;
-}
-
 
 .full{
     background-color: rgb(173, 245, 173);
@@ -733,6 +729,36 @@
     border: 2px solid rgb(139, 25, 95);
     font-weight: bold;
 }
+
+
+
+
+
+
+/* RESPONSIVO */
+@media (max-width: 768px) {
+  .vagasAbertas {
+    padding: 40px 20px;
+  }
+
+  .linha-vagas {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .vaga {
+    flex: 1 1 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
 
 
 /*Footer*/
