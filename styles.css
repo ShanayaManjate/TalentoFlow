@@ -335,17 +335,38 @@
 
 
 
+/*SEGUNDA PARTE - SHANAYA*/
 
-/*SEGUNDA PARTE - SHANNAYA*/
 #dashboard{
     height: 100vh;
     width: 500;
     display: flex;
-    padding: 20px;
+   /* padding: 20px; */
+    padding-left: 70px;
+    padding-right: 50px;
+}
+.vagas{
+padding: 60px 100px;
+    background-color: rgb(245, 241, 241)
+}
+#destaque{
+    color: #0d6efd;
+}
+#showAll{
+    display: flex;
+    justify-content: space-between;
+    color: #0c185c;
+    
 }
 #vagasEmDestaque{
+    
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-left: 70px;
+    margin-right: 50px;
+    
 }
 #grelhaVagas{
     display: flex;
@@ -355,20 +376,65 @@
 }
 .vagasFirstLine{
 
-    display: flex;
+   /* display: flex;
     justify-content: center;
     padding: 10px;
-    gap: 15 px;
+    gap: 15 px; */
+
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 20px;
+    padding-left: 70px;
+    padding-right: 50px;
 
 }
 .vagasSecondLine{
 
-    display: flex;
+   /* display: flex;
     justify-content: center;
     padding: 10px;
-    gap: 15 px;
+    gap: 15 px; */
+
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 20px;
+    padding-left: 70px;
+    padding-right: 50px;
+   
 
 }
+#logo{
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+}
+#Full{
+  border: 1px solid rgb(8, 8, 146);
+    color: #0c185c;
+    padding: 2px;
+}
+#Address{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    color: #555;
+}
+#DescVaga{
+    color: #666;
+    padding: 3px;
+
+   
+}
+.VagaD{
+    
+    gap: 15px;
+    padding: 20px;
+    border: 1px solid #ddd;
+
+}
+
 
 
 #buttonMarketing{
@@ -379,6 +445,7 @@ border-radius: 20px;
     border: transparent;
     padding-left: 10px;
     padding-right: 10px;
+    
 }
 #buttonDesign{
 border-radius: 20px;
@@ -413,83 +480,12 @@ border-radius: 20px;
 *{
     box-sizing: border-box;
 }
-.imag{
-    background-color: black;
 
+.imgEmp{
+    width: 25px;
+    height: 25px;
+    border-radius: 90;
 }
-#dashboard{
-    height: 100;
-    width: 500;
-    display: flex;
-    padding: 20px;
-}
-#vagasEmDestaque{
-    display: flex;
-    justify-content: center;
-}
-#grelhaVagas{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding: 20px;
-}
-.vagasFirstLine{
-
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-    gap: 15 px;
-
-}
-.vagasSecondLine{
-
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-    gap: 15 px;
-
-}
-
-
-#buttonMarketing{
-border-radius: 20px;
-    padding: 2% 2%;
-    color:orange;
-    background-color: bisque;
-    border: transparent;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-#buttonDesign{
-border-radius: 20px;
-    padding: 2% 2%;
-    color: green;
-    background-color: darkseagreen;
-    border: transparent;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-#buttonTechnology{
-    border-radius: 20px;
-    padding: 2% 2%;
-    color:red;
-    background-color:cornsilk;
-    border:transparent;
-    padding-left: 10px;
-    padding-right: 10px;
-    
-}
-#buttonBusiness{
-    border-radius: 20px;
-    padding: 2% 2%;
-    color: blueviolet;
-    background-color: lavender;
-    border: transparent;
-    padding-left: 10px;
-    padding-right: 10px;
-    
-}
-
 
 
 
