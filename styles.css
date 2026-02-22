@@ -695,3 +695,101 @@ hr{
     display: flex;
     gap: 15px;
 }
+
+
+
+
+/* ========================= */
+/* RESPONSIVIDADE - MOBILE   */
+/* ========================= */
+
+@media (max-width: 768px) {
+
+    /* Rducao de pading um pouquinho grandess  */
+    .hero,
+    .secao-empresas,
+    .categorias,
+    .vagasAbertas,
+    .footer {
+        padding: 40px 20px;
+    }
+
+    .cabecalho-explore {
+        padding: 0 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    /* Header empilhado */
+    .cabeca {
+        flex-direction: column;
+        gap: 15px;
+        padding: 15px 20px;
+    }
+
+    .divhead1 {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+
+    .headElements {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .auth-buttons {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .auth-buttons button {
+        width: 100%;
+    }
+
+    /* Hero */
+    .hero-title { font-size: 28px; }
+    .hero-subtitle { font-size: 24px; }
+    .hero-number { font-size: 32px; }
+
+    .hero-image img {
+        width: 180px;
+    }
+
+    /* Search */
+    .search-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .search-btn {
+        width: 100%;
+    }
+
+    /* Categorias em coluna */
+    .linha-categorias {
+        flex-direction: column;
+    }
+
+    /* Vagas em coluna */
+    .linha-vagas {
+        flex-direction: column;
+    }
+
+    .vaga {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    /* Footer */
+    .containerFooter {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .final {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
