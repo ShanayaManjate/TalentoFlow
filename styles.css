@@ -121,20 +121,7 @@
 }
 
 
-     clip-path: polygon(
-        0% 0%,     /* sem corte no topo à esquerda */
-        100% 0%,   /* topo direito normal */
-        100% 85%,  /* desce antes do fim */
-        85% 100%,  /* corte no fundo à direita */
-         0% 100%,   /* fundo esquerdo normal */
-         0% 12%     /* sobe para fechar o corte esquerdo */
-       
-        
-    );
-
-
-
-}
+     
 
 /* Conteúdo principal */
 
@@ -234,7 +221,7 @@
 
 .secao-empresas {
     width: 100%;
-    background-color: #f8f9fb;
+    background-color: white;
     display: flex;
     justify-content:flex-start; /* centraliza o conteúdo */
     padding: 30px 0;
@@ -291,8 +278,6 @@
 
 /* SECTION DE CATEGORIAS */
 .categorias {
-    display: flex;
-    flex-wrap: wrap;
     padding: 60px 80px;
 }
 
@@ -300,8 +285,7 @@
 .linha-categorias {
     display: flex;          /* Ativa flex */
     gap: 20px;              /* Espaço entre cards */
-    margin-bottom: 20px; 
-    flex-wrap: wrap;   /* Espaço entre linhas */
+    margin-bottom: 20px;    /* Espaço entre linhas */
 }
 
 /* Cada card */
@@ -324,25 +308,15 @@
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(0,0,0,0.08);
 }
-.card-categoria, :first, i
-{ color: #2196F3;}
-
-
 
 /* Ícone */
 .card-icon img {
-    width: 70px;
+    width: 100px;   
+    height: auto;   /* mantémmos a proporção */
 }
-
 
 .card-icon i {
-     color: #476dbe; /* azul */
-    font-size: 50px;
-}
-
-
-.engenharia i {
-    color: #5271b3;
+    font-size: 40px;
 }
 
 /* Texto */
@@ -358,6 +332,36 @@
     align-items: center;
     gap: 8px;
 }
+
+.eng{
+    color: rgb(68, 68, 245);
+    font-size:2px;
+   
+}
+
+.gestao{
+    color: rgb(68, 68, 245);
+    font-size:2px;
+
+}
+
+
+.recur{
+    color: rgb(68, 68, 245);
+    font-size:2px;
+}
+
+.micro{
+
+    color: rgb(68, 68, 245);
+    font-size:2px;
+
+    
+}
+
+
+
+
 
 
 
@@ -618,6 +622,8 @@
 
 
 
+
+
 /*ESTILIZANDO SECTION DE ULTIMAS VAGAS Agora*/
 
 
@@ -628,21 +634,21 @@
 }
 
 .vagas-topo {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
 }
 
-.vagas-topo h1 {
-  font-size: 28px;
-  color: #0d0d0e;
+.designTitle {
+    color: #227aff;
 }
 
 .ver-todas {
-  color: #0c185c;
-  font-size: 14px;
-  cursor: pointer;
+    color: #0c185c;
+    font-size: 14px;
+    cursor: pointer;
+    font-size: 15px;
 }
 
 .linha-vagas {

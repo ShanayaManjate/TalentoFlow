@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -125,6 +125,10 @@
 
 
 
+ 
+
+
+
     <!-- Section das categorias -->
 <section class="categorias">
 
@@ -135,7 +139,6 @@
             <div class="card-icon">
                 <img src="categorias/Screenshot 2026-02-19 233126.png" alt="">
             </div>
-
             <div class="card-info">
                 <h3 class="card-titulo">Design</h3>
                 <div class="card-vagas">
@@ -160,8 +163,7 @@
 
         <div class="card-categoria">
             <div class="card-icon">
-                <span><i class="fa-solid fa-microphone" style="font-size:45px;"></i>
-                </span>
+               <span class="micro"><i class="fa-solid fa-microphone"></i></span>
             </div>
             <div class="card-info">
                 <h3 class="card-titulo">Marketing</h3>
@@ -205,12 +207,10 @@
 
         <div class="card-categoria">
             <div class="card-icon">
-                  <span class="engenharia">
-                     <i class="fa fa-code"></i>
-                </span>
+               <span class="eng"><i class="fa-solid fa-code"></i></span>
             </div>
             <div class="card-info">
-             <h3 class="card-titulo">Engenharia</h3>
+                <h3 class="card-titulo">Engenharia</h3>
                 <div class="card-vagas">
                     542 jobs available
                     <span><i class="fa fa-arrow-right"></i></span>
@@ -220,14 +220,12 @@
 
         <div class="card-categoria">
             <div class="card-icon">
-                  <span class="engenharia">
-                    <i class="fa-solid fa-briefcase"></i>
-                </span>
+                <span class="gestao"><i class="fa-solid fa-business-time"></i></span>
             </div>
             <div class="card-info">
-              <h3 class="card-titulo">Gestão de Negocios</h3>
+                <h3 class="card-titulo">Gestão de Negócios</h3>
                 <div class="card-vagas">
-                    542 jobs available
+                    211 jobs available
                     <span><i class="fa fa-arrow-right"></i></span>
                 </div>
             </div>
@@ -235,7 +233,7 @@
 
         <div class="card-categoria">
             <div class="card-icon">
-                <i class="fa fa-users"></i>
+                <span class="recur"><i class="fa fa-users"></i></span>
             </div>
             <div class="card-info">
                 <h3 class="card-titulo">Recursos Humanos</h3>
@@ -249,6 +247,7 @@
     </div>
 
 </section>
+   
    
     <!--Shanaya - desde a seccao de dashboard ate a seccao das vagas em destaque-->
    
@@ -285,20 +284,6 @@
 
 
 
-
-
-
-
-
-
-
-   
-            
-    
-         
-      
-    
-      
 
 
 
@@ -476,13 +461,18 @@
   <!--Ercilio: A partir da seccao das vagas abertas ate no fim(inclui footer)-->
 
 <section class="vagasAbertas">
-  <!-- topo -->
-  <div class="vagas-topo">
-    <h1>Últimas vagas abertas</h1>
-    <div class="ver-todas">
-      Show all jobs <i class="fa fa-arrow-right" aria-hidden="true"></i>
+ 
+
+    <!-- Cabeçalho -->
+    <div class="vagas-topo">
+        <div>
+            <h1>Últimas <span class="designTitle">vagas abertas</span></h1>
+        </div>
+        <div class="ver-todas">
+            Show all jobs <i class="fa fa-arrow-right"></i>
+        </div>
     </div>
-  </div>
+
 
   <!-- LINHAS DE VAGAS -->
   <div class="linha-vagas">
